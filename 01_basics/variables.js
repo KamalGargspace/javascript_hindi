@@ -7,7 +7,9 @@ let accountState;
 accountEmail = "haca@gmail.com"
 accountPass = "32453"
 accountCity ="bengaluru"
-
+/*
+prefer not to use the var because of the scope problem
+*/
 console.log(accountId);
 
 console.table([accountId,accountEmail,accountPass,accountCity,accountState])
