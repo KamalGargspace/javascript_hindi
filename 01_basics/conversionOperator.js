@@ -20,5 +20,39 @@ console.log(isBoolinboolean);
 // string=> true
 
 
+let somenumber= 33
+let stringnumber= String(somenumber);
+console.log(stringnumber);
+console.log(typeof stringnumber);
+
+
+//. *************operations*************//
+
+let value = 3
+let negvalue = -value
+//console.log(negvalue)
+
+let str1 = "hello"
+let str2 = "kamal"
+
+let str3 = str1 + str2;
+console.log(str3);
+console.log("1"+2);
+console.log(1+"2");
+console.log(1+ 2 + "2");
+console.log("1"+2+2);
+console.log(+true);
+console.log(+"");
+
+
+
+
+
+
+
+
+
+
+
 
 
