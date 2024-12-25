@@ -21,12 +21,41 @@ const bigNumber = 23243424343424353434n
 
 const heroes = ["shaktimaan","iron man","batman"];
 
-let myobj{
-    name = "kamal",
-    age =22,
+let myobj = {
+    name : "kamal",
+    age :22,
 }
 
 const myfunction = function(){
     console.log("hello world");
     
 }
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive).  inme copy hoga
+//  and heap(non primitive) inme reference hoga
+
+let myyoutubename = "kamalgarg"
+let anothername = myyoutubename
+
+anothername = "codejs"
+console.log(myyoutubename);
+console.log(anothername);
+
+let userone = {
+    email: "gargji33@gmail.com",
+    upi:"aaxx@upl",
+}
+
+let usertwo = userone
+
+usertwo.email = "gaee32@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
+
