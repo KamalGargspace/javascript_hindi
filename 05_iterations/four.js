@@ -1,3 +1,4 @@
+// for in loop
 const myobj = {
     js: "javascript",
     cpp: 'c++',
@@ -24,5 +25,5 @@ for (const key in programming) {
 // map.set('IN', "India")
 
 // for (const key in map) {
-//     console.log(key);
+//     console.log(key);  //map is not iterable so it will not work
 // }

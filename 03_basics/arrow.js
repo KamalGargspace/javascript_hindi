@@ -17,13 +17,13 @@ const user = {
 
 // function chai(){
 //     let username = "kamal"
-//     console.log(this.username);
+//     console.log(this.username); //give undefined.. becaucse this is not definged in the function
     
-//     console.log(this);
+//     console.log(this);  //print many thing like window,global etc;
     
 // }
 // chai()
-//  const chai = function chai(){
+//  const chai = function (){
 //         let username = "kamal"
 //         console.log(this.username);
         

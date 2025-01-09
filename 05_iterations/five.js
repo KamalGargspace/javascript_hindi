@@ -1,7 +1,7 @@
-
+//for each loop //use to iterate over the array only
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
+// coding.forEach( function (val){ //callback function parameter 
 //     console.log(val);
 // } )
 
@@ -13,7 +13,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // }
 
-// coding.forEach(printMe)
+// coding.forEach(printMe)//bhar bnaye hue function ka sirf reference dena h
 
 // coding.forEach( (item, index, arr)=> {
 //     console.log(item, index, arr);

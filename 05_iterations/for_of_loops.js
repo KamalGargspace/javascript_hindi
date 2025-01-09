@@ -38,3 +38,11 @@ const myObject = {
 //     console.log(key, ':-', value);
     
 // }
+const str = ["kamal","sdfs","sfdd"]
+for (const st of str) {
+    for (const s of st) {
+        // console.log(s);
+        
+    }
+    
+}
